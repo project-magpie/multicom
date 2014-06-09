@@ -17,7 +17,7 @@ mme_host-objs += MMEMessageQueue.o
 mme_host-objs += mme_tune.o                        
 
 #EXTRA_CFLAGS   := -DDEBUG
-EXTRA_CFLAGS    += -D__TDT__ -D__LINUX__ -D__SH4__ -D__KERNEL__ -DMODULE -DEXPORT_SYMTAB -DMULTICOM_GPL -I$(DRIVER_TOPDIR)/include/multicom
+EXTRA_CFLAGS    += -D__TDT__ -D__LINUX__ -D__SH4__ -D__KERNEL__ -DMODULE -DEXPORT_SYMTAB -DMULTICOM_GPL -I$(DRIVER_TOPDIR)/include
 EXTRA_CFLAGS    += -fno-common -ffreestanding -fno-omit-frame-pointer -fno-optimize-sibling-calls
 EXTRA_CFLAGS    += -fno-strict-aliasing -fno-stack-protector
 EXTRA_CFLAGS    += -Wall

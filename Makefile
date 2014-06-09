@@ -1,7 +1,7 @@
-CCFLAGSY    += -D__LINUX__ -D__SH4__ -D__KERNEL__ -DMODULE -DEXPORT_SYMTAB -DMULTICOM_GPL -I$(DRIVER_TOPDIR)/include/multicom
-CCFLAGSY    += -I$(DRIVER_TOPDIR)/multicom/include/
-CCFLAGSY    += -I$(DRIVER_TOPDIR)/multicom/src/mme/include
-CCFLAGSY    += -I$(DRIVER_TOPDIR)/multicom/src/embx/include
+CCFLAGSY    += -D__LINUX__ -D__SH4__ -D__KERNEL__ -DMODULE -DEXPORT_SYMTAB -DMULTICOM_GPL -D__TDT__
+CCFLAGSY    += -I$(DRIVER_TOPDIR)/include/
+CCFLAGSY    += -I$(DRIVER_TOPDIR)/src/mme/include
+CCFLAGSY    += -I$(DRIVER_TOPDIR)/src/embx/include
 CCFLAGSY    += -fno-common -ffreestanding -fno-omit-frame-pointer -fno-optimize-sibling-calls
 CCFLAGSY    += -fno-strict-aliasing -fno-stack-protector
 CCFLAGSY    += -Wall
